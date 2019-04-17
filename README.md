@@ -7,6 +7,6 @@ I optimize this human detector by calling multiple threads when processing multi
 
 This human detector uses OpenCV trained SVM model.
 
-### Licence
+### License
 The purpose of this project is for understanding how to extract HOG feature step by step.
 Use at your own risk.
