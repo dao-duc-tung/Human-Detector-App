@@ -1,4 +1,4 @@
-# Human Detector Application
+# Human Detector Desktop App
 
 Histogram of Oriented Gradients-based Human Detector Desktop Application )(using OpenCV trained SVM model)
 
@@ -14,7 +14,7 @@ This application shows how the HOG-based Human Detector works step by step:
 
 I use the Square Root Approximation (SRA) technique in this [paper](https://ieeexplore.ieee.org/abstract/document/6648678) to calculate the HOG feature. I also use the proposed Gradient Vote method in that paper.
 
-I call multiple threads when processing multi-scale images in Image Pyramid to handle them simultaneously.
+I utilize multiple threads when processing multi-scale images in Image Pyramid to handle them simultaneously.
 
 # Output Examples (INRIA dataset)
 
@@ -37,3 +37,8 @@ I call multiple threads when processing multi-scale images in Image Pyramid to h
 <img src="https://github.com/dao-duc-tung/Human-Detector-App/raw/master/media/5.PNG" alt="drawing" width="300"/>
 
 <img src="https://github.com/dao-duc-tung/Human-Detector-App/raw/master/media/3.PNG" alt="drawing" width="300"/>
+
+# License
+The purpose of this project is for understanding how to extract HOG feature step by step.
+
+Use at your own risk.
