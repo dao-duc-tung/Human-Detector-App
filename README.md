@@ -1,6 +1,6 @@
-# Human Detector Desktop App
+# Human Detector Desktop App from Scratch
 
-Histogram of Oriented Gradients-based Human Detector Desktop Application )(using OpenCV trained SVM model)
+Histogram of Oriented Gradients-based Human Detector Desktop Application (using OpenCV trained SVM model)
 
 This application shows how the HOG-based Human Detector works step by step:
 
@@ -39,6 +39,7 @@ I utilize multiple threads when processing multi-scale images in Image Pyramid t
 <img src="https://github.com/dao-duc-tung/Human-Detector-App/raw/master/media/3.PNG" alt="drawing" width="300"/>
 
 # License
+
 The purpose of this project is for understanding how to extract HOG feature step by step.
 
 Use at your own risk.
